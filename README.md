@@ -6,7 +6,7 @@ We found that the costs and stability of rule-based and LLMs are close together,
 Our environments build on the Mike's Mazes environment (cf. https://github.com/mamund/2021-02-dagstuhl).
 
 # Agent:
-- mazePlanner : vue.js app with an agent that uses plans to navigate a maze. If its plan fails, the agent looks for alternative actions based on affordances as exposed by the maze
+- webagent : vue.js app with an agent that uses plans to navigate a maze. If its plan fails, the agent looks for alternative actions based on affordances as exposed by the maze
 - agents can run either in "N3 ruleset", "LLM" strategy, or "Fail". In the both former cases they recognize affordances, but the execution is handled either by N3 or an LLM. In the latter case, the agent just fails whenever it runs into a deviation.
 
 # Maze environments (BOLD+ldfu):
