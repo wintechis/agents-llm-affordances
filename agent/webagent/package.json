@@ -1,0 +1,26 @@
+{
+  "name": "mazeplanner",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue-flow/core": "^1.22.3",
+    "modelfusion": "^0.137.0",
+    "moment": "^2.29.4",
+    "n3": "^1.17.1",
+    "rdfxml-streaming-parser": "^2.4.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "vue-spinner-component": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/n3": "^1.16.1",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "sass": "^1.68.0",
+    "vite": "^4.4.9"
+  }
+}
