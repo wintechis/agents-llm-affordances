@@ -1,6 +1,4 @@
 # Adaptive Planning on the Web: Using LLMs and Affordances for Web Agents
-Here you can find the implementation of our agents and environment for our submission to KGSWC 2024.
-
 We investigated the adaption of agents using plans on the Web despite its large and dynamic nature, as well as agents' constrained perception.
 Built on Semantic Web technologies and affordances, we compared how agents choose appropriate actions to adapt to their environment either by condition-action rules or large language models. We conducted experiments on execution costs and plan stability distance to see whether agents would choose appropriate actions to adapt their plans.
 We found that the costs and stability of rule-based and LLMs are close together, while performance differs greatly.
